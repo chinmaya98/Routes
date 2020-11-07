@@ -7,9 +7,6 @@ class LoginPage extends StatefulWidget {
 }
 
 class _State extends State<LoginPage> {
-  TextEditingController nameController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +37,6 @@ class _State extends State<LoginPage> {
                   onPressed: () {
                     //forgot password screen
                   },
-                  textColor: Colors.blue,
                   child: Text('Forgot Password'),
                 ),
                 Container(

@@ -24,6 +24,12 @@ class Contactus extends StatelessWidget {
                 Text("Name: XYZ"),
                 Text("Phone Number: 345678923"),
                 Text("Email: xyz@gmail.com")
+              ]),
+                            Column(children: [
+                Text("Assis"),
+                Text("Name: XYZ"),
+                Text("Phone Number: 12345678923"),
+                Text("Email: xyz@gmail.com")
               ])
             ],
           ),
