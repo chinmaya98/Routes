@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:routes/contactus_page.dart';
 import 'package:routes/routes.dart';
 
 class SignInPage extends StatefulWidget {
@@ -62,7 +63,10 @@ class _State extends State<SignInPage> {
                   child: FlatButton(
                     child: Text("ContactUs"),
                     onPressed: () {
-                      Navigator.of(context).pushNamed(Routes.contactUs);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Contactus()),
+                      );
                     },
                   ),
                 )

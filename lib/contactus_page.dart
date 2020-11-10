@@ -20,11 +20,17 @@ class Contactus extends StatelessWidget {
                 ],
               ),
               Column(children: [
-                Text("Assis"),
+                Text("Assistant"),
                 Text("Name: XYZ"),
                 Text("Phone Number: 345678923"),
                 Text("Email: xyz@gmail.com")
-              ])
+              ]),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text('Go back!'),
+              ),
             ],
           ),
         ));
