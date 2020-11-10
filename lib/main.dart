@@ -36,8 +36,6 @@ class AppRouter {
 
   _routeWidgetProvider(String routeName) {
     switch (routeName) {
-      case '/':
-        return LoginPage();
       case Routes.signInRoute:
         return LoginPage();
       case Routes.signUpRoute:
